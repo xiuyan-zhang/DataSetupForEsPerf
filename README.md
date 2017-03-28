@@ -23,11 +23,17 @@ The specs include
 
 2.3) the number of meetings daily, start date and end_date, start_time and end_time, percentage distributions of the meetings with a specific number of InvolvledContracts, the function for the number of InvolvledContracts in related to the org size.
 
-3) You Want toKknow
+3) You Want to Know
 
 3.1) The emails/meetings are generated to simulate the crawl results. hence the save API used.
 
 3.2) As long as the programs are in the PATH, and you re on the IQ VPN you could run it from current directory
+
+3.3) The org has to exist, defined in the config file.
+
+3.4) Token used is hard coded for now.
+
+3.5) it is only supported in staging environment.
 
 4) To be Enhanced
 
@@ -37,3 +43,6 @@ The specs include
 
 4.3) This is single thread now. To protect the backend system, we initially want to run it in single thread. If you really want to speed up the process, you could run multiple instances of the program with different config files.
 
+5) Further Reference
+
+https://confluence.salesforceiq.com/display/ENG/Data+Shape+Design
