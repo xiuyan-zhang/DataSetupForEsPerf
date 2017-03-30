@@ -45,6 +45,8 @@ The specs include
 
 4.3) This is single thread now. To protect the backend system, we initially want to run it in single thread. If you really want to speed up the process, you could run multiple instances of the program with different config files.
 
+4.4) As of Mar 28, 2017, the util meets all needs to set up the data for the project Elasticsearch Performance. Further enhancments will be done upon requests or as needed.
+
 5) Further Reference
 
 https://confluence.salesforceiq.com/display/ENG/Data+Shape+Design
