@@ -23,13 +23,13 @@ The specs include
 
 2.3) the number of meetings daily, start date and end_date, start_time and end_time, percentage distributions of the meetings with a specific number of InvolvledContracts, the function for the number of InvolvledContracts in related to the org size.
 
-3) You Want to Know
+3) You Might Want to Know
 
 3.1) The emails/meetings are generated to simulate the crawl results. hence the save API used.
 
 3.2) As long as the programs are in the PATH, and you re on the IQ VPN you could run it from current directory
 
-3.3) The org has to exist, defined in the config file.
+3.3) The org has to  exist, defined in the config file, in order set up data under the org.
 
 3.4) Token used is hard coded for now.
 
