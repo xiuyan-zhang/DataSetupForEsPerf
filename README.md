@@ -31,9 +31,11 @@ The specs include
 
 3.3) The org has to  exist, defined in the config file, in order set up data under the org.
 
-3.4) Token used is hard coded for now.
+3.4) When an user is created, it is assigned to admin_settings and user_settings. However the options are given to associate the settings to all users under the org.
 
-3.5) it is only supported in staging environment.
+3.5) Token used is hard coded for now.
+
+3.6) It is only supported in staging environment.
 
 4) To be Enhanced
 
