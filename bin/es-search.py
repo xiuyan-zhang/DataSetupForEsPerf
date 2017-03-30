@@ -68,13 +68,15 @@ def main(argv):
 		query=query+',{"match": { "eventKey.creationTime": "'+epoch_ms+'"}}'
 
 	query=query+']}}}'
-	print 'query = ',query
-	print
+	print 'curl '+es_search+' -d \''+query+'\''
+	print "#############"
 	results=search(es_search, query)
 	#print results['hits']['hits']
 	for singleResults in results['hits']['hits']:
-		#print singleResults["_source"]["contributorURNs"]
-		print singleResults["_source"]["eventKey"]["type"],singleResults["_source"]["involvedContactURNs"]
+		print singleResults["_source"]["eventKey"]
+		print singleResults["_source"]["contributorURNs"]
+		print singleResults["_source"]["involvedContactURNs"]
+		print "#################################################"
 if __name__ == "__main__":
 	#print(os.path.dirname(os.path.realpath(__file__)))
 	main(sys.argv[1:])
